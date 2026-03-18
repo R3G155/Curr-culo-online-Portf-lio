@@ -1,0 +1,95 @@
+/* Estilo geral da página */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: #f4f4f4;}
+
+/* Cabeçalho */
+header {
+background-color: #2c3e50;
+color: white;
+text-align: center;
+padding: 20px;}
+
+/* Botão do tema */
+header button {
+margin-top: 10px;
+padding: 8px 15px;
+border: none;
+background-color: #1abc9c;
+color: white;
+cursor: pointer;
+border-radius: 5px;}
+
+header button:hover {
+background-color: #16a085;}
+
+/* Menu de navegação */
+nav {
+background-color: #34495e;}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;}
+
+nav ul li {
+display: inline-block;}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+padding: 15px 20px;
+display: inline-block;}
+
+nav ul li a:hover {
+background-color: #1abc9c;}
+
+/* Conteúdo principal */
+main {
+padding: 20px;}
+
+/* Seções */
+section {
+background-color: white;
+padding: 20px;
+margin: 20px auto;
+max-width: 800px;
+border-radius: 5px;}
+
+/* Títulos */
+h2 {
+color: #2c3e50;}
+
+/* Formulário */
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;}
+
+button {
+background-color: #1abc9c;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;}
+
+button:hover {
+background-color: #16a085;}
+
+/* Links */
+a {
+color: #1abc9c;
+font-weight: bold;}
+
+a:hover {
+text-decoration: underline;}
+
+/* 📱 Responsividade */
+@media (max-width: 600px) {
+nav ul li {
+display: block;
+text-align: center;}
+section {
+    margin: 10px;}}

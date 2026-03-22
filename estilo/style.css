@@ -11,20 +11,10 @@ color: white;
 text-align: center;
 padding: 20px;}
 
-/* Botão do tema */
-header button {
-margin-top: 10px;
-padding: 8px 15px;
-border: none;
-background-color: #1abc9c;
-color: white;
-cursor: pointer;
-border-radius: 5px;}
-
 header button:hover {
 background-color: #16a085;}
 
-/* Menu de navegação */
+/* Menu de navegação  */
 nav {
 background-color: #34495e;}
 
@@ -58,11 +48,11 @@ margin: 20px auto;
 max-width: 800px;
 border-radius: 5px;}
 
-/* Títulos */
+/* Títulos*/
 h2 {
 color: #2c3e50;}
 
-/* Formulário */
+/* Formulario*/
 input, textarea {
 width: 100%;
 padding: 10px;
@@ -86,7 +76,7 @@ font-weight: bold;}
 a:hover {
 text-decoration: underline;}
 
-/* 📱 Responsividade */
+/*Responsividade */
 @media (max-width: 600px) {
 nav ul li {
 display: block;
